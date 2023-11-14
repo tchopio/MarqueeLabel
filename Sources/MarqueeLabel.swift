@@ -10,7 +10,7 @@ import QuartzCore
 
 @IBDesignable
 
-open class MarqueeLabel: UILabel, CAAnimationDelegate {
+@objc(MarqueeLabel) open class MarqueeLabel: UILabel, CAAnimationDelegate {
     
     /**
      An enum that defines the types of `MarqueeLabel` scrolling

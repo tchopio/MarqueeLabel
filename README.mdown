@@ -1,3 +1,45 @@
+# Tchop notes
+<img src="Metadata/tchop_icon.png" width="100">
+MarqueeLabel has become a swift-only lib but it does not in our objc/swift mixed project
+The reason (at least the first one, Nov 2023) to fork this repo was to expose it for objc:
+
+```swift
+@objc(MarqueeLabel) open class MarqueeLabel: UILabel, CAAnimationDelegate { ... }
+``` 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Overview
 ============
 
